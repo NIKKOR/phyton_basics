@@ -9,11 +9,11 @@ def my_round(number, ndigits):
     left_from_0 = 0
     for i in list_after_point:
         list_after_point[list_after_point.index(i)] = int(list_after_point[list_after_point.index(i)])
-    if list_after_point[ndigits - 1] < 5:
-        list_after_point[ndigits - 1] -= 1
+    if list_after_point[ndigits-1] < 5:
+        list_after_point[ndigits-1] -= 1
     else:
-        if list_after_point[ndigits - 1] == 9:
-            for i in range(ndigits - 1, list_after_point.index(9) - 1, -1):
+        if list_after_point[ndigits-1] == 9:
+            for i in range(ndigits-1, list_after_point.index(9)-1, -1):
                 if i == list_after_point.index(9):
                     left_from_0 = i - 1
                 list_after_point[i] = 0
@@ -21,7 +21,7 @@ def my_round(number, ndigits):
                     number = int(number) + 1
             list_after_point[left_from_0] += 1
         else:
-            list_after_point[ndigits - 1] +=  1
+            list_after_point[ndigits-1] += 1
     list_after_point[ndigits:] = []
 
     str_after_point = '.'
@@ -30,23 +30,6 @@ def my_round(number, ndigits):
     number = str(int(number)) + str_after_point
     answer = str(float(number)) + ' (' + str(number) + ')'
     return answer
-
-
 print(my_round(2.1234567, 5))
 print(my_round(2.1999967, 5))
 print(my_round(2.9999967, 5))
-
-
-# Задание-2:
-# Дан шестизначный номер билета. Определить, является ли билет счастливым.
-# Решение реализовать в виде функции.
-# Билет считается счастливым, если сумма его первых и последних цифр равны.
-# !!!P.S.: функция не должна НИЧЕГО print'ить
-
-def lucky_ticket(ticket_number):
-    pass
-
-
-print(lucky_ticket(123006))
-print(lucky_ticket(12321))
-print(lucky_ticket(436751))
