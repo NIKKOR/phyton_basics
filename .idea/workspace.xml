@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcf0efbc-dffd-4e41-9801-936dd52d4e79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson03/blank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson03/blank2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson03/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phyton_basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phyton_basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson03/task2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson03/home_work/hw03_easy.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson03/home_work/hw03_easy.py" afterDir="false" />
     </list>
@@ -29,8 +25,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson03/home_work/hw03_easy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="540">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson03/task2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -115,6 +120,7 @@
         <option value="$PROJECT_DIR$/lesson03/blank.py" />
         <option value="$PROJECT_DIR$/lesson03/blank2.py" />
         <option value="$PROJECT_DIR$/lesson03/task1.py" />
+        <option value="$PROJECT_DIR$/lesson03/task2.py" />
         <option value="$PROJECT_DIR$/lesson03/home_work/hw03_easy.py" />
       </list>
     </option>
@@ -191,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hw03_easy">
+  <component name="RunManager" selected="Python.task2">
     <configuration name="blank" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="phyton_basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -276,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="phyton_basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,11 +290,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson02/task4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson03/task2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task2" />
         <item itemvalue="Python.hw03_easy" />
         <item itemvalue="Python.task1" />
         <item itemvalue="Python.blank2" />
         <item itemvalue="Python.blank" />
-        <item itemvalue="Python.task4" />
       </list>
     </recent_temporary>
   </component>
@@ -427,10 +433,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03/task2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson03/home_work/hw03_easy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="540">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
