@@ -1,3 +1,5 @@
+import re
+
 # Задание-1:
 # Вывести символы в нижнем регистре, которые находятся вокруг
 # 1 или более символов в верхнем регистре.
@@ -20,6 +22,14 @@ line = 'mtMmEZUOmcqWiryMQhhTxqKdSTKCYEJlEZCsGAMkgAYEOmHBSQsSUHKvSfbmxULaysmNO'\
        'XiUWgsKQrDOeZoNlZNRvHnLgCmysUeKnVJXPFIzvdDyleXylnKBfLCjLHntltignbQoiQ'\
        'zTYwZAiRwycdlHfyHNGmkNqSwXUrxGc'
 
+print('Вам решение с re или без? (0 - с re, 1 - без)')
+re_check = bool(input())
+if re_check == 1:
+       line_re = list(re.findall(r'[a-z]+', line))
+else:
+       line_re = filter(lambda x:  x != str(x).lower(), line)
+
+print(line_re)
 
 # Задание-2:
 # Вывести символы в верхнем регистре, слева от которых находятся
