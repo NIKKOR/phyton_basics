@@ -6,3 +6,8 @@ import os
 # И второй скрипт, удаляющий эти папки.
 
 print(os.getcwd())
+for i in range(1, 10):
+    dir_name = 'dir_' + str(i)
+    dir_path = os.path.join(os.getcwd(), dir_name)
+    os.mkdir(dir_path)
+#  добавь удаление перед запуском
