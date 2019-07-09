@@ -19,7 +19,6 @@ def rmdir_x_to_y(x, y):
         os.rmdir(dir_path)
 
 
-print(os.getcwd())
 mkdir_x_to_y(1, 9)
 rmdir_x_to_y(1, 9)
 
