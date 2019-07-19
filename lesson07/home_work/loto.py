@@ -72,22 +72,30 @@ def get_ran_index_row(rows: int = 1):
     return random_index_row
 
 class Row:
-    def __init__(self, order: int = 1):
+    def __init__(self, order: int = 1, property: str = 'Human'):
         self.order = order
         self.row = ["_" for _ in range(0, 9)]
-        ran_nums_base_index = 5 * (order - 1)
-        ran_index_row_temp = get_ran_index_row(order)[order-1]
+        self.ran_nums_base_index = 5 * (order - 1)
+        self.ran_index_row_temp = get_ran_index_row(order)[order-1]
         for index_range in range(0, 9):
-            if index_range in ran_index_row_temp:
-                self.row[index_range] = ran_nums_base[ran_nums_base_index]
-                ran_nums_base_index += 1
+            if index_range in self.ran_index_row_temp:
+                self.row[index_range] = ran_nums_base[self.ran_nums_base_index]
+                self.ran_nums_base_index += 1
+        self.row_str = ''
+        for el in self.row:
+            self.row_str += str(el) + ' '
 
+        self.row =
     def __str__(self):
-        return f'{self.row}'
+        return f'{str(self.row_str)}'
 
+class Card:
+    def __init__(self, property):
+        print('{1:.^100'.format('Ваша карточка'))
+        print(f'{Row(1)} \n{2} \n{3}')
 
 print(get_ran_index_row())
-a = Row(1)
+a = Row(2)
 b = Row(2)
-c = Row(3)
-print(f'{a} \n{b} \n{c}')
+print(f'{a}\n{b}')
+
